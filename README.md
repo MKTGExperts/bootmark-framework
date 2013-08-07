@@ -1,6 +1,6 @@
 # Bootmark Framework
 
-An open source Joomla! template framework, design agnostig and intuitive structure easy to understand and maintain
+An open source Joomla! template framework, design agnostig and intuitive structure quite easy to understand and maintain
 
 ## Compatibility
 
@@ -29,6 +29,7 @@ Visits the wiki page linked to this repository to get the full documentation ava
 ## Credits
 
 * Check the file "credits.html" included in this package or repository to see the complete list of credits.
+
 
 
 
