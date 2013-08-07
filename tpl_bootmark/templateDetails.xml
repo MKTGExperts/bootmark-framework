@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension method="upgrade" version="3.1" type="template" client="site">
+	<name>Bootmark</name>
+	<version>0.0.1</version>
+	<author>mktgexperts.com</author>
+	<creationDate>August  2013</creationDate>
+	<copyright>Copyright (C) 2013 mktgexperts.com. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>enavarro@mktgexperts.com</authorEmail>
+	<authorUrl>www.mktgexperts.com</authorUrl>
+	<description>TPL_BOOTMARK_XML_DESCRIPTION</description>
+	
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+	</files>
+	
+	<positions>
+		<position>header-1-a</position>
+		<position>header-1-b</position>
+		<position>header-1-c</position>
+		<position>header-1-d</position>
+		<position>header-1-e</position>
+		<position>header-1-f</position>
+		
+		<position>header-2-a</position>
+		<position>header-2-b</position>
+		<position>header-2-c</position>
+		<position>header-2-d</position>
+		<position>header-2-e</position>
+		<position>header-2-f</position>
+
+		<position>header-3-a</position>
+		<position>header-3-b</position>
+		<position>header-3-c</position>
+		<position>header-3-d</position>
+		<position>header-3-e</position>
+		<position>header-3-f</position>
+
+		<position>before-1-a</position>
+		<position>before-1-b</position>
+		<position>before-1-c</position>
+		<position>before-1-d</position>
+		<position>before-1-e</position>
+		<position>before-1-f</position>
+
+		<position>before-2-a</position>
+		<position>before-2-b</position>
+		<position>before-2-c</position>
+		<position>before-2-d</position>
+		<position>before-2-e</position>
+		<position>before-2-f</position>
+
+		<position>before-3-a</position>
+		<position>before-3-b</position>
+		<position>before-3-c</position>
+		<position>before-3-d</position>
+		<position>before-3-e</position>
+		<position>before-3-f</position>
+
+		<position>sidebar-a</position>
+		<position>sidebar-b</position>
+		<position>sidebar-c</position>
+
+		<position>after-1-a</position>
+		<position>after-1-b</position>
+		<position>after-1-c</position>
+		<position>after-1-d</position>
+		<position>after-1-e</position>
+		<position>after-1-f</position>
+
+		<position>after-2-a</position>
+		<position>after-2-b</position>
+		<position>after-2-c</position>
+		<position>after-2-d</position>
+		<position>after-2-e</position>
+		<position>after-2-f</position>
+
+		<position>after-3-a</position>
+		<position>after-3-b</position>
+		<position>after-3-c</position>
+		<position>after-3-d</position>
+		<position>after-3-e</position>
+		<position>after-3-f</position>
+
+		<position>footer-1-a</position>
+		<position>footer-1-b</position>
+		<position>footer-1-c</position>
+		<position>footer-1-d</position>
+		<position>footer-1-e</position>
+		<position>footer-1-f</position>
+
+		<position>footer-2-a</position>
+		<position>footer-2-b</position>
+		<position>footer-2-c</position>
+		<position>footer-2-d</position>
+		<position>footer-2-e</position>
+		<position>footer-2-f</position>
+
+		<position>footer-3-a</position>
+		<position>footer-3-b</position>
+		<position>footer-3-c</position>
+		<position>footer-3-d</position>
+		<position>footer-3-e</position>
+		<position>footer-3-f</position>
+
+		<position>hiddenblock</position>
+
+	</positions>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_bootmark.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_bootmark.sys.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="positions_settings"  type="textarea" default=""
+					label="xxx positions settings" 
+					description=""
+					filter="string"
+					cols="25"
+					rows="8" />
+			
+				<field name="templateColor" class="" type="color" default="#08C"
+					label="TPL_BOOTMARK_COLOR_LABEL"
+					description="TPL_BOOTMARK_COLOR_DESC" />
+
+				<field name="templateBackgroundColor" class="" type="color" default="#F4F6F7"
+					label="TPL_BOOTMARK_BACKGROUND_COLOR_LABEL"
+					description="TPL_BOOTMARK_BACKGROUND_COLOR_DESC" />
+
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_BOOTMARK_LOGO_LABEL"
+					description="TPL_BOOTMARK_LOGO_DESC" />
+					
+				<field name="sitetitle"  type="text" default=""
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					filter="string" />
+
+				<field name="sitedescription"  type="text" default=""
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					filter="string" />
+
+				<field name="googleFont"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="TPL_BOOTMARK_FONT_LABEL"
+					description="TPL_BOOTMARK_FONT_DESC"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="googleFontName" class="" type="text" default="Open+Sans"
+					label="TPL_BOOTMARK_FONT_NAME_LABEL"
+					description="TPL_BOOTMARK_FONT_NAME_DESC" />
+
+				<field name="fluidContainer"
+					type="radio"
+					class="btn-group"
+					default="0"
+					label="TPL_BOOTMARK_FLUID_LABEL"
+					description="TPL_BOOTMARK_FLUID_DESC"
+				>
+					<option value="0">TPL_BOOTMARK_STATIC</option>
+					<option value="1">TPL_BOOTMARK_FLUID</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
